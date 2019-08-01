@@ -1,0 +1,17 @@
+﻿G:\visual studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Camera.vcxproj, LightSource.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Camera.cpp
+g:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+  g:\visual studio\vc\tools\msvc\14.16.27023\include\gl\glfw3.h(98): note: 参见“APIENTRY”的前一个定义
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(279): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(280): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(287): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(288): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(295): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(296): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(303): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(304): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(313): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(314): warning C4305: “参数”: 从“double”到“float”截断
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(441): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\我的项目\opengl\opengl_光照\multilight\camera\camera.cpp(464): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  Camera.vcxproj -> D:\我的项目\OpenGL\OpenGL_光照\MultiLight\Debug\MultiLight.exe

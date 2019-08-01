@@ -1,0 +1,9 @@
+﻿G:\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Camera.vcxproj, LightSource.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Camera.cpp
+G:\Windows Kits\10\Include\10.0.17763.0\shared\minwindef.h(130,1): warning C4005:  “APIENTRY”: 宏重定义
+D:\myOpengl\include\GL\glfw3.h(98): message :  参见“APIENTRY”的前一个定义
+D:\我的项目\OpenGL\OpenGL_光照\Blinn_phong\Camera\Camera.cpp(390,27): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
+D:\我的项目\OpenGL\OpenGL_光照\Blinn_phong\Camera\Camera.cpp(390,19): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
+D:\我的项目\OpenGL\OpenGL_光照\Blinn_phong\Camera\Camera.cpp(413,25): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
+D:\我的项目\OpenGL\OpenGL_光照\Blinn_phong\Camera\Camera.cpp(413,18): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
+  Camera.vcxproj -> D:\我的项目\OpenGL\OpenGL_光照\Blinn_phong\Debug\Blinn-phong.exe

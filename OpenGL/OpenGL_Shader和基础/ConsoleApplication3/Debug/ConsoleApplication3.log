@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  ConsoleApplication3.cpp
+g:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+  g:\visual studio\vc\tools\msvc\14.16.27023\include\gl\glfw3.h(98): note: 参见“APIENTRY”的前一个定义
+  ConsoleApplication3.vcxproj -> D:\我的项目\OpenGL\OpenGL_Shader和基础\Debug\ConsoleApplication3.exe

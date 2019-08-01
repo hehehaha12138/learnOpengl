@@ -1,0 +1,12 @@
+﻿G:\visual studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Build_in.vcxproj, Camera.vcxproj, Geometry.vcxproj, LightSource.vcxproj, Model.vcxproj, MultiLight.vcxproj, Z_test.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Camera.cpp
+g:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+  g:\visual studio\vc\tools\msvc\14.16.27023\include\gl\glfw3.h(98): note: 参见“APIENTRY”的前一个定义
+d:\我的项目\opengl\opengl_实例化\instance\camera\mesh.h(59): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(84): warning C4244: “参数”: 从“GLfloat”转换到“unsigned int”，可能丢失数据
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(101): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(105): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(236): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\我的项目\opengl\opengl_实例化\instance\camera\camera.cpp(260): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  Camera.vcxproj -> D:\我的项目\OpenGL\OpenGL_实例化\Instance\Debug\Instance.exe

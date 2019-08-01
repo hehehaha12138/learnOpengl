@@ -1,0 +1,16 @@
+﻿  ConsoleApplication3.cpp
+c:\users\zelda\source\repos\consoleapplication3\consoleapplication3\consoleapplication3.cpp(17): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glewInit，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glewGetErrorString，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glutInitWindowPosition，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glutInitWindowSize，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glutInitDisplayMode，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glutMainLoop，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp_glutDisplayFunc，该符号在函数 main 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp___glutInitWithExit，该符号在函数 glutInit_ATEXIT_HACK 中被引用
+ConsoleApplication3.obj : error LNK2019: 无法解析的外部符号 __imp___glutCreateWindowWithExit，该符号在函数 glutCreateWindow_ATEXIT_HACK 中被引用
+ConsoleApplication3.obj : error LNK2001: 无法解析的外部符号 __imp___glewDisableVertexAttribArray
+ConsoleApplication3.obj : error LNK2001: 无法解析的外部符号 __imp___glewEnableVertexAttribArray
+ConsoleApplication3.obj : error LNK2001: 无法解析的外部符号 __imp___glewVertexAttribPointer
+G:\visual studio\VC\Tools\MSVC\14.16.27023\lib\x64\freeglutd.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\zelda\source\repos\ConsoleApplication3\x64\Debug\ConsoleApplication3.exe : fatal error LNK1120: 12 个无法解析的外部命令

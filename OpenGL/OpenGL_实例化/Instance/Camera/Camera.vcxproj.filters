@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{6821f1cc-0496-4257-9cd9-ec6330d65dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\光照">
+      <UniqueIdentifier>{ca82da37-61e9-41b5-b328-686f5c3af4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\材质">
+      <UniqueIdentifier>{a9661c21-835c-4f91-a601-deb28f626189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\光照贴图">
+      <UniqueIdentifier>{41be4aa2-af68-4186-bf9a-b833cc18fa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\定向光">
+      <UniqueIdentifier>{9804c4aa-db30-445f-adea-08d69bce89e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\点光源">
+      <UniqueIdentifier>{3d85e1d7-f65f-4344-af43-a475d5da541a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\聚光">
+      <UniqueIdentifier>{f6b641af-58c5-4efa-ac2e-b363751e9e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\多光源">
+      <UniqueIdentifier>{59017a90-e546-40fa-8e5f-af7b4900338b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\模型加载">
+      <UniqueIdentifier>{0c716dcf-b28b-477f-9d40-546507617164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Z_test">
+      <UniqueIdentifier>{809a4feb-7d29-47b6-bf48-8398101d9149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\stencil">
+      <UniqueIdentifier>{69460cc2-41b4-46c8-be9a-b6b045ce6c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\UniformBlock">
+      <UniqueIdentifier>{8b711cf8-99c3-4899-95d3-4fd92e6b952a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Geometry">
+      <UniqueIdentifier>{e1c95987-a1c9-405f-b3ac-72c377be7d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Instance">
+      <UniqueIdentifier>{003d5aab-3f62-42c1-b55a-169f6ceaf7cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="uniVertex_2.vs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="uniVertex.vs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="objectFragment.fs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="lightVertex1.vs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="lightFragment.fs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="lightColorFragment.fs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="fragment.fs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="vertex.vs">
+      <Filter>Shader\光照</Filter>
+    </None>
+    <None Include="textureVertex.vs">
+      <Filter>Shader\材质</Filter>
+    </None>
+    <None Include="textureFragment.fs">
+      <Filter>Shader\材质</Filter>
+    </None>
+    <None Include="lightTextureVertex.vs">
+      <Filter>Shader\光照贴图</Filter>
+    </None>
+    <None Include="lightTextureFragment.fs">
+      <Filter>Shader\光照贴图</Filter>
+    </None>
+    <None Include="directionalLightFragment.fs">
+      <Filter>Shader\定向光</Filter>
+    </None>
+    <None Include="directionalLightVertex.vs">
+      <Filter>Shader\定向光</Filter>
+    </None>
+    <None Include="pointLightVertex.vs">
+      <Filter>Shader\点光源</Filter>
+    </None>
+    <None Include="pointLightFragment.fs">
+      <Filter>Shader\点光源</Filter>
+    </None>
+    <None Include="spotLightVertex.vs">
+      <Filter>Shader\聚光</Filter>
+    </None>
+    <None Include="spotLightFragment.fs">
+      <Filter>Shader\聚光</Filter>
+    </None>
+    <None Include="multiLightVertex.vs">
+      <Filter>Shader\多光源</Filter>
+    </None>
+    <None Include="multiLightFragment.fs">
+      <Filter>Shader\多光源</Filter>
+    </None>
+    <None Include="modelVertex.vs">
+      <Filter>Shader\模型加载</Filter>
+    </None>
+    <None Include="modelFragment.fs">
+      <Filter>Shader\模型加载</Filter>
+    </None>
+    <None Include="zTestVertex.vs">
+      <Filter>Shader\Z_test</Filter>
+    </None>
+    <None Include="zTestFragment.fs">
+      <Filter>Shader\Z_test</Filter>
+    </None>
+    <None Include="stencilFragment.fs">
+      <Filter>Shader\stencil</Filter>
+    </None>
+    <None Include="stencilVertex.vs">
+      <Filter>Shader\stencil</Filter>
+    </None>
+    <None Include="redVertex.vs">
+      <Filter>Shader\UniformBlock</Filter>
+    </None>
+    <None Include="redFragment.fs">
+      <Filter>Shader\UniformBlock</Filter>
+    </None>
+    <None Include="blueVertex.vs">
+      <Filter>Shader\UniformBlock</Filter>
+    </None>
+    <None Include="blueFragment.fs">
+      <Filter>Shader\UniformBlock</Filter>
+    </None>
+    <None Include="gVertex.vs">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="gFragment.fs">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="gGeometry.gs">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="gNormalVertex.vs">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="gNormalFragment.fs">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="InstanceVertex.vs">
+      <Filter>Shader\Instance</Filter>
+    </None>
+    <None Include="InstanceFragment.fs">
+      <Filter>Shader\Instance</Filter>
+    </None>
+    <None Include="InstanceGeometry.gs">
+      <Filter>Shader\Instance</Filter>
+    </None>
+    <None Include="planetVertex.vs">
+      <Filter>Shader\Instance</Filter>
+    </None>
+    <None Include="planetFragment.fs">
+      <Filter>Shader\Instance</Filter>
+    </None>
+  </ItemGroup>
+</Project>
